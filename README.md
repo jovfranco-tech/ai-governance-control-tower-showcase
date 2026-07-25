@@ -1,8 +1,12 @@
 # AI Governance Control Tower — Executive Showcase
 
 <p align="center">
-  <strong>Enterprise-Grade AI Management System & Control Tracking Architecture</strong><br />
-  Aligned with ISO/IEC 42001 & NIST AI Risk Management Framework (RMF)
+  <img src="assets/control-tower-overview.webp" alt="AI Governance Control Tower — Executive Dashboard Overview" width="840" style="border-radius: 8px; margin-bottom: 16px;" />
+</p>
+
+<p align="center">
+  <strong>Enterprise-oriented AI governance decision-support architecture</strong><br />
+  ISO/IEC 42001-inspired alignment & NIST AI Risk Management Framework (RMF) functional scope
 </p>
 
 <p align="center">
@@ -15,7 +19,7 @@
 
 ## Executive Overview
 
-The **AI Governance Control Tower** is an architectural showcase and decision-support prototype designed for Chief Information Officers (CIOs), Chief AI Officers (CAIOs), and Enterprise Risk Committees. It demonstrates how organizations can systematically govern AI initiatives across the entire lifecycle—from intake risk scoring to control selection, policy exception management, third-party vendor risk assessment, and audit-ready evidence logging.
+The **AI Governance Control Tower** is an architectural portfolio showcase designed for Chief Information Officers (CIOs), Chief AI Officers (CAIOs), and Enterprise Risk Committees. It demonstrates how organizations can systematically govern AI initiatives across the entire lifecycle—from intake risk scoring to control selection, policy exception management, third-party vendor risk assessment, and audit-ready evidence tracking.
 
 ---
 
@@ -26,7 +30,7 @@ Experience the functional web application interface directly in your browser:
 
 > [!NOTE]
 > **Portfolio Showcase & Synthetic Data Scope**:
-> This repository is a documentation-only portfolio showcase. The live demonstration operates with representative synthetic datasets and deterministic scenarios. It does not process real tenant data or confidential enterprise metrics, and does not constitute formal legal or regulatory certification.
+> This repository is a documentation-only portfolio showcase. The live demonstration operates with representative synthetic datasets and deterministic scenarios. It does not process real tenant data or confidential enterprise metrics. It does not imply formal ISO/IEC 42001 certification, regulatory approval, operational deployment, or guaranteed compliance.
 
 ---
 
@@ -35,11 +39,11 @@ Experience the functional web application interface directly in your browser:
 ```mermaid
 flowchart TD
     A[AI Project Intake] --> B{Risk Tiering Engine}
-    B -->|High Risk| C[Mandatory Human Oversight & ISO 42001 Controls]
+    B -->|High Risk| C[Mandatory Human Oversight & Control Library]
     B -->|Medium / Low Risk| D[Standard Baseline Controls]
     C --> E[Policy Exception & Vendor Risk Triage]
     D --> E
-    E --> F[Immutable Evidence & Audit Trail]
+    E --> F[Traceable Evidence & Audit Trail]
     F --> G[Executive Committee Dashboard]
 ```
 
@@ -49,32 +53,33 @@ flowchart TD
 
 1. **AI Use-Case Intake & Risk Scoring**:
    - Automated risk classification based on impact, autonomy, data sensitivity, and regulatory exposure.
-   - Alignment with ISO/IEC 42001 AI Management System standards and NIST AI RMF guidance.
+   - ISO/IEC 42001-inspired alignment and NIST AI RMF functional scope.
 
 2. **Control Recommendation & Tracking**:
    - Dynamic mapping of baseline safety, transparency, bias mitigation, and data privacy controls.
-   - Real-time compliance readiness scoring across organizational domains.
+   - Compliance readiness scoring across organizational domains.
 
 3. **Policy Exception & Vendor Risk Lifecycle**:
    - Formalized workflow for tracking policy exceptions, expiration dates, and mitigating controls.
-   - Comprehensive assessment of third-party AI vendor risk and supply-chain dependencies.
+   - Assessment framework for third-party AI vendor risk and supply-chain dependencies.
 
-4. **Audit-Ready Evidence Ledger**:
+4. **Traceable Evidence & Audit Trail**:
    - Traceable evidence logging connecting executive decisions directly to underlying control documentation and human sign-offs.
 
 ---
 
-## Technology Stack & Categories
+## Verified Technology Stack
 
-- **User Interface**: React, TypeScript, Next.js, Tailwind CSS
-- **Visualization & Metrics**: Dynamic Executive Dashboards & Interactive Data Grids
-- **Standards & Frameworks**: ISO/IEC 42001, ISO 27001, ISO 22301, NIST AI RMF
+- **Frontend**: React 19, TypeScript 6, Vite 8, React Router
+- **Visualization & UI**: Recharts, Tailwind CSS 4
+- **Persistence Architecture**: Supabase-ready persistence architecture
+- **Testing**: Vitest
 
 ---
 
 ## Responsible AI & Governance Limitations
 
-- **Human-in-the-Loop Authority**: The Control Tower serves as a decision-support layer. Final approval, policy exceptions, and risk acceptances require explicit human authorization.
+- **Human-in-the-Loop Authority**: The Control Tower serves as a decision-support architecture. Final approval, policy exceptions, and risk acceptances require explicit human authorization.
 - **Non-Automated Compliance**: Using this prototype does not automatically satisfy statutory regulatory obligations without formal organizational audit and policy enforcement.
 
 ---

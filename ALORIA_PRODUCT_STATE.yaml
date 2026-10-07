@@ -1,0 +1,23 @@
+schema_version: "1.0"
+product: "AGCT Showcase"
+repository: "jovfranco-tech/ai-governance-control-tower-showcase"
+state_date: "2026-10-07"
+canonical_branch: "main"
+canonical_main_status: "CANONICAL_ACCEPTED"
+classification: "SHOWCASE_CANONICAL"
+current_phase: "showcase_current_main"
+canonical_candidate_sha: "6e0ad84671545c9f15bd77b0e1dae5b7bcf7b0be"
+software_closeable_remaining: "showcase is current on main; underlying AGCT product remains separate authority"
+external_gates:
+  - "underlying AGCT product evidence"
+  - "no standalone production/certification claim"
+evidence_boundary:
+  candidate_is_not_main: false
+  main_is_not_production_claim: true
+  technical_gold_is_not_third_party_certification: true
+  commercial_proof_is_separate: true
+promotion_policy:
+  blind_merge_allowed: false
+  exact_sha_validation_required: true
+  preserve_non_claims: true
+  production_deploy_requires_explicit_authorization: true

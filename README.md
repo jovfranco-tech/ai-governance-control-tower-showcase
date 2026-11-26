@@ -88,3 +88,8 @@ flowchart TD
 
 © Jovan Franco. All Rights Reserved.  
 This repository is provided strictly as a public portfolio showcase and architectural overview. Reproduction, redistribution, or commercial use of this material without prior written consent is strictly prohibited.
+
+## Repository consolidation (2026-11-25)
+
+This repository keeps a single branch, `main`. Branch heads are preserved as `archive/20261125/*` tags.
+Content that only existed on branches is under [docs/history/recovered-20261125/](docs/history/recovered-20261125/INDEX.md), as historical material.
